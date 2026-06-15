@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Para Você, Meu Amor 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts-container"></div>
+    
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Para Você, Meu Amor</h1>
+            <p class="subtitle">Cada momento ao seu lado é um presente precioso</p>
+        </header>
+
+        <main class="main-content">
+            <section class="love-message">
+                <div class="message-card">
+                    <h2>💖 Você é minha tudo 💖</h2>
+                    <p id="typing-text"></p>
+                </div>
+            </section>
+
+            <section class="interactive-section">
+                <button class="love-button" id="loveButton">
+                    <span class="button-text">Clique aqui para sentir meu amor</span>
+                    <span class="heart-icon">❤️</span>
+                </button>
+                
+                <div class="love-counter" id="loveCounter">
+                    <span class="counter-label">Vezes que te amei hoje:</span>
+                    <span class="counter-number" id="counterNumber">0</span>
+                    <span class="heart-animation">💕</span>
+                </div>
+            </section>
+
+            <section class="memories-section">
+                <h2>Nossos Momentos Especiais</h2>
+                <div class="memories-grid">
+                    <div class="memory-card" data-memory="1">
+                        <div class="memory-icon">🌹</div>
+                        <h3>Nosso Primeiro Encontro</h3>
+                        <p>O dia em que minha vida mudou para sempre</p>
+                    </div>
+                    <div class="memory-card" data-memory="2">
+                        <div class="memory-icon">🌟</div>
+                        <h3>Nossas Risadas</h3>
+                        <p>Cada sorriso seu ilumina meus dias</p>
+                    </div>
+                    <div class="memory-card" data-memory="3">
+                        <div class="memory-icon">🎭</div>
+                        <h3>Nossas Aventuras</h3>
+                        <p>Explorando o mundo juntos, hand in hand</p>
+                    </div>
+                    <div class="memory-card" data-memory="4">
+                        <div class="memory-icon">🏠</div>
+                        <h3>Nosso Lar</h3>
+                        <p>Onde quer que estejamos, é nosso paraíso</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reasons-section">
+                <h2>Por que eu te amo?</h2>
+                <div class="reasons-container">
+                    <div class="reason">
+                        <span class="reason-number">1</span>
+                        <p>Seu sorriso que ilumina meu mundo</p>
+                    </div>
+                    <div class="reason">
+                        <span class="reason-number">2</span>
+                        <p>Sua bondade que me inspira a ser melhor</p>
+                    </div>
+                    <div class="reason">
+                        <span class="reason-number">3</span>
+                        <p>Seu abraço que me faz sentir em casa</p>
+                    </div>
+                    <div class="reason">
+                        <span class="reason-number">4</span>
+                        <p>Seu riso que é minha música favorita</p>
+                    </div>
+                    <div class="reason">
+                        <span class="reason-number">5</span>
+                        <p>Porque você é simplesmente você</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="letter-section">
+                <div class="letter-container">
+                    <h2>💌 Minha Carta de Amor</h2>
+                    <div class="letter-content" id="letterContent">
+                        <p>Meu amor,</p>
+                        <p>Não existem palavras suficientes para expressar o quanto você significa para mim. Cada dia ao seu lado é uma bênção, e cada momento compartilhado se torna uma memória preciosa que guardo em meu coração.</p>
+                        <p>Você é minha primeira e última thought ao acordar e dormir. Sua presença torna os dias mais claros e as noites mais quentes. Com você, encontrei meu melhor amigo, meu confidente e meu amor verdadeiro.</p>
+                        <p>Prometo te amar, cuidar e valorizar todos os dias de nossa vida juntos. Você é o presente mais bonito que o universo me deu.</p>
+                        <p class="signature">Para sempre seu, com todo meu amor ❤️</p>
+                    </div>
+                    <button class="expand-button" id="expandLetter">Ler carta completa</button>
+                </div>
+            </section>
+
+            <section class="promise-section">
+                <h2>Minhas Promessas</h2>
+                <div class="promises-grid">
+                    <div class="promise">
+                        <div class="promise-icon">💪</div>
+                        <p>Estar sempre ao seu lado</p>
+                    </div>
+                    <div class="promise">
+                        <div class="promise-icon">🤝</div>
+                        <p>Apoiar seus sonhos</p>
+                    </div>
+                    <div class="promise">
+                        <div class="promise-icon">😊</div>
+                        <p>Te fazer sorrir sempre</p>
+                    </div>
+                    <div class="promise">
+                        <div class="promise-icon">🛡️</div>
+                        <p>Proteger seu coração</p>
+                    </div>
+                    <div class="promise">
+                        <div class="promise-icon">🌈</div>
+                        <p>Criar um futuro lindo</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Feito com todo meu amor para você 💕</p>
+            <p class="footer-note">"O amor não se vê com os olhos, mas sim com o coração"</p>
+        </footer>
+    </div>
+
+    <div class="modal" id="loveModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>💖 Eu Te Amo 💖</h2>
+            <div class="modal-hearts"></div>
+            <p class="modal-message">Você é a melhor coisa que já me aconteceu!</p>
+            <div class="modal-animation">
+                <span class="floating-heart">❤️</span>
+                <span class="floating-heart">💕</span>
+                <span class="floating-heart">💖</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
